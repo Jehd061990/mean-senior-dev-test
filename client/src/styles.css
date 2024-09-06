@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-container {
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+}
+
+/* Copy button */
+.btn-copy {
+  cursor: pointer;
+}
+
+.btn-copy span {
+  transition: all 0.2s linear;
+}
+
+.btn-copy:hover span {
+  transform: rotateZ(20deg);
+}
+
+/* Delete Button */
+.btn-del {
+  cursor: pointer;
+}
+
+.btn-del span {
+  transition: all 0.2s linear;
+}
+
+.btn-del:hover span {
+  transform: rotateZ(-20deg);
+}
